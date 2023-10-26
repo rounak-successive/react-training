@@ -5,11 +5,11 @@
 import { PropTypes } from 'prop-types'
 const Weather = ({ temperature }) => {
   return (
-    <h3>
+    <h2>
       The temperature is {temperature}.
       {temperature > 25 && " It's sunny today!"}
       {temperature < 10 && " It's cold today!"}
-    </h3>
+    </h2>
   )
 }
 Weather.propTypes = {

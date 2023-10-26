@@ -3,7 +3,7 @@
 //         component in the App component.
 
 const Greeting = () => {
-  return <h4>Hello, React!</h4>
+  return <h1 style={{ textAlign: 'center' }}>Hello, React!</h1>
 }
 
 export default Greeting
