@@ -67,4 +67,13 @@ li {
   margin-bottom: 4px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
