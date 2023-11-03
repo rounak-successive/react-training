@@ -16,6 +16,9 @@ const App = () => {
         <Link to='/assignment-3/' style={{ padding: 5 }}>
           Assignment-3
         </Link>
+        <Link to='/assignment-4/' style={{ padding: 5 }}>
+          Assignment-4
+        </Link>
         <Outlet />
       </nav>
       {pathname === '/' && (

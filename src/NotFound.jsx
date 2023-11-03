@@ -8,12 +8,12 @@ const NotFound = () => {
 
   const headingStyle = {
     fontSize: '3rem',
-    color: '#f44336', // Red color for emphasis
+    color: '#f44336',
   }
 
   const textStyle = {
     fontSize: '1.5rem',
-    color: '#333', // Dark gray color for text
+    color: '#333',
   }
 
   const imageStyle = {
