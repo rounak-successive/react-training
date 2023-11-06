@@ -1,0 +1,21 @@
+.voting-app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.voting-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.voting-option {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.voting-option span {
+  font-weight: bold;
+}
