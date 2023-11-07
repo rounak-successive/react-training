@@ -55,7 +55,7 @@ const FormContainer = () => {
           error={formik.touched.email && Boolean(formik.errors.email)}
           helperText={formik.touched.email && formik.errors.email}
           {...formik.getFieldProps('email')}
-          style={{ width: '50%' }}
+          style={{ width: '50%', marginTop: '8px' }}
         />
       </FormControl>
 
@@ -69,7 +69,7 @@ const FormContainer = () => {
           error={formik.touched.password && Boolean(formik.errors.password)}
           helperText={formik.touched.password && formik.errors.password}
           {...formik.getFieldProps('password')}
-          style={{ width: '50%' }}
+          style={{ width: '50%', marginTop: '8px' }}
         />
       </FormControl>
       <FormControl>

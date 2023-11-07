@@ -19,8 +19,6 @@ const ComplexFormContainer = () => {
       .typeError("That doesn't look like a phone number")
       .positive("A phone number can't start with a minus")
       .integer("A phone number can't include a decimal point")
-      .min(10, 'Phone number should be of length 10')
-      .max(10, 'Phone number should be of length 10')
       .required('A phone number is required'),
   })
 
@@ -48,7 +46,7 @@ const ComplexFormContainer = () => {
           error={formik.touched.email && Boolean(formik.errors.email)}
           helperText={formik.touched.email && formik.errors.email}
           {...formik.getFieldProps('email')}
-          style={{ width: '50%', marginBottom: '10px' }}
+          style={{ width: '50%' }}
         />
       </FormControl>
 
@@ -62,7 +60,7 @@ const ComplexFormContainer = () => {
           error={formik.touched.password && Boolean(formik.errors.password)}
           helperText={formik.touched.password && formik.errors.password}
           {...formik.getFieldProps('password')}
-          style={{ width: '50%' }}
+          style={{ width: '50%', marginTop: '8px' }}
         />
       </FormControl>
 
@@ -70,7 +68,7 @@ const ComplexFormContainer = () => {
         <TextField
           label='Phone Number'
           variant='outlined'
-          style={{ width: '50%' }}
+          style={{ width: '50%', marginTop: '8px' }}
           name='phoneNumber'
           onChange={formik.handleChange}
           value={formik.values.phoneNumber}
