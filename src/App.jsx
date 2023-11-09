@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from 'react-router-dom'
+
 const App = () => {
   const { pathname } = useLocation()
   return (
@@ -21,6 +22,9 @@ const App = () => {
         </Link>
         <Link to='/assignment-5/' style={{ padding: 5 }}>
           Assignment-5
+        </Link>
+        <Link to='/assignment-6/' style={{ padding: 5 }}>
+          Assignment-6
         </Link>
         <Outlet />
       </nav>

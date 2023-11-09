@@ -9,6 +9,7 @@ import Assignment2 from './Assignment-Day-2/Assignment2'
 import Assignment3 from './Assignment-Day-3/Assignment3'
 import Assignment4 from './Assignment-Day-4/Assignment-4'
 import Assignment5 from './Assignment-Day-5/Assignment-5'
+import Assignment6 from './Assignment-Day-6/Assignment6'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -24,6 +25,7 @@ root.render(
         <Route path='/assignment-3/:questionNo?/*' element={<Assignment3 />} />
         <Route path='/assignment-4/:questionNo?/*' element={<Assignment4 />} />
         <Route path='/assignment-5/:questionNo?/*' element={<Assignment5 />} />
+        <Route path='/assignment-6/:questionNo?/*' element={<Assignment6 />} />
         <Route path='*' element={<NotFound />} />
       </Route>
     </Routes>
